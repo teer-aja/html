@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel-HTML</title>
+  </head>
+  <body>
+    <h1>Membuat Table pada HTML</h1>
+    <table border="1">
+      <tr>
+        <td>Biliiard</td>
+        <td>9ball</td>
+        <td>cue</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td>Street Glide</td>
+        <td>Road Glide</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1">
+      <tr>
+        <td>Nike</td>
+        <td>Adidas</td>
+        <td>Puma</td>
+      </tr>
+      <tr>
+        <td>Dunk</td>
+        <td>Yeezy</td>
+        <td>La France</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1" cellpadding="10" bgcolor="red">
+      <thead>
+        <tr bgcolor="burlywood">
+          <th bgcolor="bisque">Animals</th>
+          <th>Fruits</th>
+          <th>Flowers</th>
+        </tr>
+      </thead>
+      <tbody bgcolor="lightblue">
+        <tr>
+          <td>Platypus</td>
+          <td>Banana</td>
+          <td>Jasmine</td>
+        </tr>
+        <tr>
+          <td>Quokka</td>
+          <td>Lychee</td>
+          <td>Lavender</td>
+        </tr>
+        <tr>
+          <td>Red Panda</td>
+          <td>Orange</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Axolotl</td>
+          <td>Dragon Fruit</td>
+          <td>Peony</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h1>Menggabungkan Cell Table pada HTML</h1>
+    <table border="1" cellpadding="10" bgcolor="red">
+      <thead>
+        <tr bgcolor="burlywood">
+          <th bgcolor="bisque">Animals</th>
+          <th colspan="2">Fruits</th>
+        </tr>
+      </thead>
+      <tbody bgcolor="lightblue">
+        <tr>
+          <td>Platypus</td>
+          <td colspan="2">Banana</td>
+        </tr>
+        <tr>
+          <td colspan="3">Quokka</td>
+        </tr>
+        <tr>
+          <td>Red Panda</td>
+          <td rowspan="8">Orange</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Axolotl</td>
+          <td>Peony</td>
+        </tr>
+        <tr>
+          <td>Red Panda</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Axolotl</td>
+          <td>Peony</td>
+        </tr>
+
+        <tr>
+          <td>Red Panda</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Axolotl</td>
+          <td>Peony</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Red Panda</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Peony</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h1>Menyisipkan Element yang lain ke dalam sel pada HTML</h1>
+    <table border="1" cellpadding="10" bgcolor="red">
+        <tr bgcolor="burlywood">
+          <td rowspan="5"><img src="./../idspt.jpeg" width="199"/></td>
+          <th>Fruits</th>
+          <th>Fruits</th>
+          <th>Flowers</th>
+        </tr>
+        <tr>
+          <td>Platypus</td>
+          <td>Banana</td>
+          <td>Jasmine</td>
+        </tr>
+        <tr>
+          <td>Quokka</td>
+          <td>Lychee</td>
+          <td>Lavender</td>
+        </tr>
+        <tr>
+          <td>Red Panda</td>
+          <td>Orange</td>
+          <td>Sakura</td>
+        </tr>
+        <tr>
+          <td>Axolotl</td>
+          <td>Dragon Fruit</td>
+          <td>Peony</td>
+        </tr>
+    </table>
+  </body>
+</html>
