@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <form action="contact.php" method="post">
+      <fieldset>
+        <legend>Contact</legend>
+        <div>
+          <label>Name:</label>
+          <input type="text" name="Name" placeholder="Full name..." />
+        </div>
+        <div>
+          <label>Username:</label>
+          <input type="text" name="Username" placeholder="Username..." />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="Email" placeholder="Your email..." />
+        </div>
+        <div>
+          <label>Password:</label>
+          <input type="password" name="Password" placeholder="Password..." />
+        </div>
+        <div>
+          <input type="submit" name="Submit" value="Send" />
+        </div>
+        <div>
+          <label>Gender:</label>
+          <label><input type="radio" name="Gender" value="Male" />Male</label>
+          <label
+            ><input type="radio" name="Gender" value="Female" />Female</label
+          >
+        </div>
+        <div>
+            <label>Religion:</label>
+            <select name="Religion">
+                <option value="Muslim">Muslim</option>
+                <option value="Christian">Christian</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="Satanic">Satanic</option>
+            </select>
+        </div>
+        <div>
+            <label>Biography</label>
+            <textarea name="Biography"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="Submit" value="List">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
